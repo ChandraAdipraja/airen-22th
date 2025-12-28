@@ -1,0 +1,61 @@
+@import "tailwindcss";
+
+:root {
+  --bg1: #0b1020;
+  --bg2: #0e1630;
+  --accent: #ff7ad9;
+  --accent2: #7afcff;
+  --muted: rgba(255, 255, 255, 0.7);
+}
+
+/* Alias class biar gak pake bg-[var(...)] terus */
+@layer utilities {
+  .bg-bg1 {
+    background-color: var(--bg1);
+  }
+
+  .bg-bg2 {
+    background-color: var(--bg2);
+  }
+
+  .bg-accent {
+    background-color: var(--accent);
+  }
+
+  .text-accent {
+    color: var(--accent);
+  }
+
+  .text-accent2 {
+    color: var(--accent2);
+  }
+
+  .text-muted {
+    color: var(--muted);
+  }
+}
+
+/* Hide scrollbar but keep scroll */
+.hide-scrollbar {
+  scrollbar-width: none;
+  /* Firefox */
+  -ms-overflow-style: none;
+  /* IE 10+ */
+}
+
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;
+  /* Chrome, Safari */
+}
+
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
