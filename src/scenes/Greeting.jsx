@@ -14,21 +14,23 @@ export default function Greeting({
   const scrollAreaRef = useRef(null);
 
   const nextText = useMemo(() => {
-    return `Haiii ${name || "Airen"} 💖
+    return `Haiii ${name || "Airen"} 💖 How Are Youu ?
 
-Kalau kamu lagi baca ini sambil dengerin lagu yang lagi muter di background ini, berarti aku berhasil.Karena jujur aja, setiap aku mendengar lagu ini, yang ada dipikiranku itu hanya tertuju kepadamu
+Kalau kamu lagi baca ini sambil dengerin music yang lagi play di background ini, berarti aku berhasil.Karena jujur aja, setiap aku mendengar lagu ini, yang ada dipikiranku itu hanya tertuju kepadamu
 
 Bukan karena liriknya,tapi karena rasanya.Rasa tenang yang aneh, rasa hangat yang pelan, kayak lagi diingatkan kalau ada seseorang yang bikin semuanya terasa lebih ringan, tanpa kemarahan.
 
-Aku tau kok airen, kita nggak selalu dekat secara jarak.Kadang cuma lewat layar, kadang cuma lewat voice, kadang bahkan cuma lewat diam ahaha.Tapi anehnya :(, di sela-sela itu semua, aku ngerasa kita itu sangat dekat airen. Rasa aneh seperti ini, tapi aku suka.
+Aku tau kok airen, kita nggak selalu dekat secara jarak.Kadang cuma lewat layar, kadang cuma lewat voice, kadang bahkan cuma lewat diam ahaha.Tapi anehnya :(, di sela-sela itu semua, aku ngerasa kita itu sangat dekat airen. Rasa aneh dan nyaman seperti ini, tapi aku suka.
 
-Kalau suatu hari kamu lagi capek, ngeluh karena kerjaan, atau lagi feeling lonely ,aku harap kamu ingat satu hal kecil ini,di suatu waktu, ada seseorang yang sedang mikirin kamu sambil dengerin lagu ini, dan senyum sendiri.
+Kalau suatu hari kamu lagi capek, ngeluh karena kerjaan, atau lagi feeling lonely ,aku harap kamu ingat satu hal kecil ini,di waktu yang sama, ada seseorang yang sedang mikirin kamu sambil dengerin lagu ini, dan senyum sendiri.
 
 Oh iya...
 
-Kamu juga bisa talk ke aku atau kalau itu sulit, mungkin server primodial, yang akan selalu terbuka untukmu. Jangan pernah merasa kesepian airen, orang seperti kamu harus bahagia, dan tersenyum didunia ini.
+Kamu juga bisa talk ke aku, atau kalau itu sulit, mungkin server primodial, yang akan selalu terbuka untukmu. Jangan pernah merasa kesepian airen, orang seperti kamu harus bahagia, dan tersenyum didunia ini.
 
-Ahhhh, kenapa malah seperti ini ya, padahal teks aslinya bukan gini. Maybe in another life, in another universe, kuharap bisa merasakan petualangan yang seru ini, tentu dengan akhir yang berbeda.
+Juga, aku mau bilang makasih, nggak banyak orang yang aku temui di 2025 itu, tapi makasih banyak sudah mau meluangkan waktunya buat aku. Maaf, maaf sudah membawamu sejauh ini. Maaf pernah ada rasa suka dan rasa nyaman kepadamu. Aku sangat beruntung pernah mengenalmu lebih jauh, terimakasih, dan... maaf...
+
+Ahhhh, kenapa malah seperti ini ya, padahal teks aslinya bukan gini. Airen, takdir itu bisa dirubah, jangan pernah pasrah pada suatu hal, aku juga percaya takdir itu ada, tapi yang nentuin takdir itu kita sendiri. Mungkin kita hanya salah timeline saja.. kuharap aku masih bisa text with u.
 
 Airen, mungkin ini akan membuatmu sedih jika terus melanjutkan ini, aku minta maaf, aku hanya ingin menyampaikan sesuatu kepada kamu.`;
   }, [name]);
@@ -70,7 +72,7 @@ Airen, mungkin ini akan membuatmu sedih jika terus melanjutkan ini, aku minta ma
                   startDelay={900}
                   scrollRef={scrollAreaRef}
                   onDone={() => setTypingDone(true)}
-                  className="text-lg leading-relaxed text-white/90 whitespace-pre-line"
+                  className="text-lg leading-relaxed text-white/90 whitespace-pre-line text-justify"
                 />
               ) : (
                 <div className="text-white/0 select-none">loading</div>
