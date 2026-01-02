@@ -8,6 +8,7 @@ export default function EndingScene({ isActive, name = "Airen" }) {
   const andRef = useRef(null);
   const newYearRef = useRef(null);
   const descRef = useRef(null);
+  const authorRef = useRef(null);
 
   const [showFireworks, setShowFireworks] = useState(false);
 
@@ -18,7 +19,13 @@ export default function EndingScene({ isActive, name = "Airen" }) {
     }
 
     gsap.set(
-      [titleRef.current, andRef.current, newYearRef.current, descRef.current],
+      [
+        titleRef.current,
+        andRef.current,
+        newYearRef.current,
+        descRef.current,
+        authorRef.current,
+      ],
       {
         autoAlpha: 0,
         y: 20,
@@ -55,6 +62,16 @@ export default function EndingScene({ isActive, name = "Airen" }) {
       )
       .to(
         descRef.current,
+        {
+          autoAlpha: 1,
+          y: 0,
+          duration: 0.9,
+          ease: "power3.out",
+        },
+        "+=0.15"
+      )
+      .to(
+        authorRef.current,
         {
           autoAlpha: 1,
           y: 0,
@@ -114,6 +131,13 @@ export default function EndingScene({ isActive, name = "Airen" }) {
           >
             Semoga tahun ini penuh hal-hal yang bikin kamu merasa cukup,
             dicintai, dan tetap hangat… bahkan di hari yang sepi sekalipun ✨
+          </p>
+          <p
+            className="max-w-md mx-auto text-xs sm:text-base text-white/70 mt-4 italic"
+            ref={authorRef}
+          >
+            Terimakasih Sudah Membuka Ini
+            <br />- C
           </p>
         </div>
       </div>

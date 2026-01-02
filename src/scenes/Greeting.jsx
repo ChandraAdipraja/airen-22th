@@ -16,21 +16,21 @@ export default function Greeting({
   const nextText = useMemo(() => {
     return `Haiii ${name || "Airen"} 💖 How Are Youu ?
 
-Kalau kamu lagi baca ini sambil dengerin music yang lagi play di background ini, berarti aku berhasil.Karena jujur aja, setiap aku mendengar lagu ini, yang ada dipikiranku itu hanya tertuju kepadamu
+Kalau kamu lagi baca ini sambil dengerin music yang lagi play di background, berarti aku berhasil. Karena jujur aja, setiap aku mendengar lagu ini, yang ada dipikiranku itu hanya tertuju ke kamu.
 
-Bukan karena liriknya,tapi karena rasanya.Rasa tenang yang aneh, rasa hangat yang pelan, kayak lagi diingatkan kalau ada seseorang yang bikin semuanya terasa lebih ringan, tanpa kemarahan.
+Bukan karena liriknya,tapi karena rasanya. Rasa tenang yang aneh, rasa hangat yang pelan,i mean... kayak lagi diingatkan kalau ada seseorang yang bikin semuanya terasa lebih ringan menjalani hidup setiap hari.
 
-Aku tau kok airen, kita nggak selalu dekat secara jarak.Kadang cuma lewat layar, kadang cuma lewat voice, kadang bahkan cuma lewat diam ahaha.Tapi anehnya :(, di sela-sela itu semua, aku ngerasa kita itu sangat dekat airen. Rasa aneh dan nyaman seperti ini, tapi aku suka.
+I know airen, kita nggak selalu dekat secara jarak. Kadang yahh cuma lewat layar, kadang cuma lewat voice, kadang bahkan cuma lewat diam ahaha. Tapi anehnya :(, di sela-sela itu semua, aku ngerasa kita itu sangat dekat airen. Aku suka rasa nyaman seperti ini.
 
-Kalau suatu hari kamu lagi capek, ngeluh karena kerjaan, atau lagi feeling lonely ,aku harap kamu ingat satu hal kecil ini,di waktu yang sama, ada seseorang yang sedang mikirin kamu sambil dengerin lagu ini, dan senyum sendiri.
+Kalau suatu hari kamu lagi capek, ngeluh karena kerjaan yang sangat banyak, atau lagi feeling lonely, aku harap kamu ingat satu hal kecil ini, di waktu yang sama, ada seseorang yang sedang mikirin kamu sambil dengerin lagu ini, dan senyum sendiri.
 
 Oh iya...
 
-Kamu juga bisa talk ke aku, atau kalau itu sulit, mungkin server primodial, yang akan selalu terbuka untukmu. Jangan pernah merasa kesepian airen, orang seperti kamu harus bahagia, dan tersenyum didunia ini.
+Kalau kamu merasa feeling lonely, kamu juga bisa talk atau call ke aku, ajak main aku, atau kalau itu sulit, mungkin server primodial, yang akan selalu terbuka untukmu. Jangan pernah merasa kesepian airen, orang seperti kamu harus bahagia, dan tersenyum didunia ini.
 
-Juga, aku mau bilang makasih, nggak banyak orang yang aku temui di 2025 itu, tapi makasih banyak sudah mau meluangkan waktunya buat aku. Maaf, maaf sudah membawamu sejauh ini. Maaf pernah ada rasa suka dan rasa nyaman kepadamu. Aku sangat beruntung pernah mengenalmu lebih jauh, terimakasih, dan... maaf...
+Juga, aku mau bilang makasih, nggak banyak orang yang aku temui di 2025 itu, tapi makasih banyak sudah mau meluangkan waktunya buat aku. Maaf, maaf sudah membawamu sejauh ini. Maaf pernah ada rasa suka dan rasa nyaman kepadamu. Tapi aku sangat beruntung pernah mengenalmu sejauh ini, terimakasih.
 
-Ahhhh, kenapa malah seperti ini ya, padahal teks aslinya bukan gini. Airen, takdir itu bisa dirubah, jangan pernah pasrah pada suatu hal, aku juga percaya takdir itu ada, tapi yang nentuin takdir itu kita sendiri. Mungkin kita hanya salah timeline saja.. kuharap aku masih bisa text with u.
+Ahhhh, kenapa malah seperti ini ya, padahal teks aslinya bukan gini. Mungkin kita hanya salah timeline saja...Ngomong-ngomong airen,i see ur repost in tiktok, kamu selalu bilang 'gabisa, gamungkin, itu udah takdir' dan lain-lain, maksudku airen jangan pernah pasrah pada suatu hal, aku juga percaya takdir itu ada, tapi yang nentuin takdir itu kita sendiri. Maksud kata-kataku ini, kuharap kita bisa balik seperti biasanya :)
 
 Airen, mungkin ini akan membuatmu sedih jika terus melanjutkan ini, aku minta maaf, aku hanya ingin menyampaikan sesuatu kepada kamu.`;
   }, [name]);
